@@ -1,0 +1,16 @@
+[server]
+host = "localhost"
+port = "8080"
+timeout_in_millis = 2000
+concurrency_limit = 10
+
+[db]
+username = "user"
+password = "password"
+port = 5432
+host = "postgres"
+database_name = "my_database"
+
+[kv]
+host = "localhost"
+port = 6379
