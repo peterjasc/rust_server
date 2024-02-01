@@ -1,0 +1,20 @@
+[server]
+host = "localhost"
+port = "8080"
+concurrency_limit = 10
+client_timeout_in_millis = 200
+
+[db]
+username = "peterkokk"
+password = "password" # You would actually use a secure way to store the password, like environment variables or secrets management systems.
+port = 5432
+host = "localhost"
+database_name = "postgres"
+timeout_in_millis = 2000
+pool_size = 10
+
+[kv]
+host = "localhost"
+port = 6379
+timeout_in_millis = 2000
+pool_size = 10
